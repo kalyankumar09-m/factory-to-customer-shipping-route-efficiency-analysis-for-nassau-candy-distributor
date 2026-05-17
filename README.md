@@ -3,7 +3,7 @@ Nassau Candy Shipping Efficiency Dashboard
 
 A Streamlit-based analytics dashboard for evaluating shipping performance, delivery efficiency, lead times, and logistics bottlenecks across factory-to-customer routes for Nassau Candy distributors.
 
-📌 Project Overview
+ Project Overview
 
 The Nassau Candy Shipping Efficiency Dashboard is a data analytics application built using Python, Streamlit, Pandas, and Plotly.
 The project helps analyze and visualize shipping operations by tracking:
@@ -17,13 +17,13 @@ Monthly shipping trends
 
 This dashboard enables logistics teams and business managers to identify inefficient shipping routes and optimize distribution strategies.
 
-🚀 Features
-📊 Interactive KPI Dashboard
-🛣️ Route Efficiency Leaderboard
-🚚 Ship Mode Performance Analysis
-📍 State Bottleneck Detection
-📈 Monthly Shipping Trend Visualization
-🔍 Dynamic Filters for:
+ Features
+ Interactive KPI Dashboard
+ Route Efficiency Leaderboard
+ Ship Mode Performance Analysis
+ State Bottleneck Detection
+ Monthly Shipping Trend Visualization
+ Dynamic Filters for:
 Region
 Ship Mode
 Date Range
@@ -101,8 +101,9 @@ Developer Information
 
 Kalyan Kumar
 
-GitHub: Kalyan Kumar GitHub Profile
-LinkedIn: LinkedIn Profile
+GitHub: https://github.com/kalyankumar09-m/factory-to-customer-shipping-route-efficiency-analysis-for-nassau-candy-distributor.git
+
+
 ⭐ Future Enhancements
 Predictive delay analytics using Machine Learning
 Real-time shipment tracking
