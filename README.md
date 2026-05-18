@@ -88,6 +88,20 @@ Identifies states with high shipping delays and order volumes.
 
 Visualizes monthly average lead time trends.
 
+Dashboard Preview
+
+ 🔹 Overview
+![Overview](overview.png)
+
+🔹 Optimization Output
+![Optimization](optimization.png)
+
+ 🔹 Charts
+![Charts](charts.png)
+
+ 🔹 Map View
+![Map](map.png)
+
   Business Benefits
 Improves logistics visibility
 Detects delivery bottlenecks
