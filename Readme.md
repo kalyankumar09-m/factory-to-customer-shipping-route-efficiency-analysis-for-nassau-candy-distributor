@@ -1,219 +1,248 @@
-**Nassau Candy Shipping Efficiency Dashboard**
+# 🍬 Nassau Candy Shipping Efficiency Dashboard
 
+A Streamlit-based analytics dashboard for evaluating shipping performance, delivery efficiency, lead times, and logistics bottlenecks across factory-to-customer shipping routes for Nassau Candy distributors.
 
+---
 
-A Streamlit-based analytics dashboard for evaluating shipping performance, delivery efficiency, lead times, and logistics bottlenecks across factory-to-customer routes for Nassau Candy distributors.
+# 📌 Project Overview
 
+The **Nassau Candy Shipping Efficiency Dashboard** is a logistics analytics application developed using **Python, Streamlit, Pandas, NumPy, and Plotly**.
 
+The dashboard helps analyze and visualize shipping operations by monitoring:
 
-&#x20;**Project Overview**
+- Average delivery lead time
+- Delayed shipments
+- Route efficiency
+- Ship mode performance
+- State-wise bottlenecks
+- Monthly shipping trends
 
+This project enables logistics teams and business managers to identify inefficient shipping routes and optimize distribution performance.
 
+---
 
-The Nassau Candy Shipping Efficiency Dashboard is a data analytics application built using Python, Streamlit, Pandas, and Plotly.
+# 🚀 Features
 
-The project helps analyze and visualize shipping operations by tracking:
+✅ Interactive KPI Dashboard  
+✅ Route Efficiency Leaderboard  
+✅ Ship Mode Performance Analysis  
+✅ State Bottleneck Detection  
+✅ Monthly Shipping Trend Visualization  
+✅ Dynamic Filters  
+✅ Raw Dataset Viewer  
 
+---
 
+# 🎛️ Dashboard Filters
 
-* Average delivery lead time
-* Delayed shipments
-* Route efficiency
-* Ship mode performance
-* State-wise bottlenecks
-* Monthly shipping trends
+Users can filter data based on:
 
+- Region
+- Ship Mode
+- Start Date
+- End Date
 
+---
 
-This dashboard enables logistics teams and business managers to identify inefficient shipping routes and optimize distribution strategies.
+# 🛠️ Technologies Used
 
+| Technology | Purpose |
+|---|---|
+| Python | Core Programming |
+| Streamlit | Dashboard Development |
+| Pandas | Data Processing |
+| NumPy | Numerical Operations |
+| Plotly Express | Interactive Visualizations |
 
+---
 
-* &#x20;Features
-* &#x20;Interactive KPI Dashboard
-* &#x20;Route Efficiency Leaderboard
-* &#x20;Ship Mode Performance Analysis
-* &#x20;State Bottleneck Detection
-* &#x20;Monthly Shipping Trend Visualization
-* 
+# 📂 Dataset Information
 
-&#x20;   **Dynamic Filters for:**
+The dataset contains shipping and order details such as:
 
-* Region
-* Ship Mode
-* Date Range
-* &#x20;Raw Dataset Viewer
+- Order Date
+- Ship Date
+- Product Name
+- Region
+- Ship Mode
+- State/Province
+- Order ID
 
+The preprocessing pipeline calculates:
 
+- Lead Time
+- Delay Percentage
+- Route Efficiency
+- Factory Mapping
 
-&#x20;**Technologies Used**
+---
 
-* Python
-* Streamlit
-* Pandas
-* NumPy
-* Plotly Express
+# ⚙️ Installation & Setup
 
-&#x20;**Dataset Information**
+## 1️⃣ Clone the Repository
 
+```bash
+git clone https://github.com/kalyankumar09-m/factory-to-customer-shipping-route-efficiency-analysis-for-nassau-candy-distributor.git
+```
 
+## 2️⃣ Navigate to Project Folder
 
-**The dataset contains shipping and order information including:**
+```bash
+cd factory-to-customer-shipping-route-efficiency-analysis-for-nassau-candy-distributor
+```
 
+## 3️⃣ Install Dependencies
 
-
-* Order Date
-* Ship Date
-* Product Name
-* Region
-* Ship Mode
-* State/Province
-* Order ID
-
-
-
-**The system preprocesses the dataset to calculate:**
-
-
-
-* Lead Time
-* Delay Percentage
-* Route Efficiency
-* Factory Mapping
-
-&#x20; **Installation \& Setup**
-
-1️⃣ Clone the Repository
-
-git clone https://github.com/your-username/nassau-candy-dashboard.git
-
-cd Nassau-candy-dashboard
-
-2️⃣ Install Dependencies
-
+```bash
 pip install -r requirements.txt
+```
 
-3️⃣ Run the Streamlit App
+## 4️⃣ Run the Streamlit App
 
+```bash
 streamlit run app.py
+```
 
-&#x20; **Dashboard Modules**
+---
 
-* &#x20;**KPI Metrics**
+# 📦 Requirements
 
+Create a `requirements.txt` file with:
 
+```txt
+streamlit
+pandas
+numpy
+plotly
+```
 
-**Displays:**
+---
 
+# 📊 Dashboard Modules
 
+## 🔹 KPI Metrics
 
-Average Lead Time
+Displays:
 
-Total Orders
+- Average Lead Time
+- Total Orders
+- Delay Percentage
+- Unique Shipping Routes
 
-Delay Percentage
+---
 
-Unique Shipping Routes
+## 🔹 Route Efficiency Leaderboard
 
-* &#x20;**Route Efficiency Leaderboard**
+Ranks shipping routes based on average lead time.
 
+---
 
+## 🔹 Ship Mode Analysis
 
-Ranks routes based on average shipping lead time.
+Compares delivery performance across shipping modes.
 
+---
 
+## 🔹 Bottleneck Detection
 
-* &#x20;**Ship Mode Analysis**
+Identifies states with:
 
+- High shipping delays
+- High shipment volumes
 
+---
 
-Compares performance of different shipping modes.
+## 🔹 Trend Analysis
 
+Visualizes monthly shipping performance trends.
 
+---
 
-* &#x20;**Bottleneck Detection**
+# 📈 Business Benefits
 
+- Improves logistics visibility
+- Detects shipping bottlenecks
+- Enhances operational efficiency
+- Supports data-driven decisions
+- Reduces shipment delays
 
+---
 
-Identifies states with high shipping delays and order volumes.
+# 🖼️ Dashboard Screenshots
 
+## 🔹 Main Dashboard
 
+![Dashboard](dashboard.png)
 
-* &#x20;**Trend Analysis**
+---
 
+## 🔹 Optimization Output
 
+![Optimization Output](optimizations_output.png)
 
-Visualizes monthly average lead time trends.
+---
 
+## 🔹 Charts & Visualizations
 
+![Charts](charts.png)
 
-&#x20; **Business Benefits**
+---
 
-* Improves logistics visibility
-* Detects delivery bottlenecks
-* Enhances operational efficiency
-* Supports data-driven shipping decisions
-* Reduces shipment delays
+## 🔹 Map View
 
-&#x20;**Project Structure**
+![Map View](map_view.png)
 
+---
+
+# 📁 Project Structure
+
+```bash
 ├── app.py
-
 ├── Nassau Candy Distributor.csv
-
 ├── requirements.txt
+├── README.md
+├── dashboard.png
+├── optimizations_output.png
+├── charts.png
+└── map_view.png
+```
 
-└── README.md
+---
 
-&#x20;GitHub Profile
+# 🌐 Live Demo
 
-Developer Information
+🚀 Streamlit App:
 
-Dashboard Preview
+https://fgrlkwt7k6z3upup2kmgtc.streamlit.app/
 
+---
 
+# 👨‍💻 Developer
 
-&#x20;🔹 Dashboard
+## Kalyan Kumar
 
-!\[Dashboard](dashboard.png)
+### GitHub Repository
 
+https://github.com/kalyankumar09-m/factory-to-customer-shipping-route-efficiency-analysis-for-nassau-candy-distributor
 
+---
 
-\### 🔹 Optimizations Output
+# 🔮 Future Enhancements
 
-!\[Optimizations output](optimizations output.png)
+- Predictive delay analytics using Machine Learning
+- Real-time shipment tracking
+- Geographic route optimization
+- Export reports to PDF/Excel
+- Warehouse performance analytics
 
+---
 
+# 📜 License
 
-\### 🔹 Charts
+This project is developed for educational and analytical purposes.
 
-!\[Charts](charts.png)
+---
 
+# ⭐ Support
 
-
-\### 🔹 Map View
-
-!\[Map view](map view.png)
-
-
-
-Kalyan Kumar
-
-
-
-**GitHub: https://github.com/kalyankumar09-m/factory-to-customer-shipping-route-efficiency-analysis-for-nassau-candy-distributor.git**
-
-
-
-**Live link : https://fgrlkwt7k6z3upup2kmgtc.streamlit.app/**
-
-
-
-&#x20; **Future Enhancements**
-
-* Predictive delay analytics using Machine Learning
-* Real-time shipment tracking
-* Geographic route mapping
-* Export reports to PDF/Excel
-* Warehouse performance analysis
-
+If you found this project useful, give it a ⭐ on GitHub!
