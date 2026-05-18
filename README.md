@@ -102,6 +102,13 @@ Dashboard Preview
  🔹 Map View
 ![Map](map.png)
 
+🔹raw dataset.png
+![Raw dataset](raw dataset.png)
+
+
+
+
+
   Business Benefits
 Improves logistics visibility
 Detects delivery bottlenecks
