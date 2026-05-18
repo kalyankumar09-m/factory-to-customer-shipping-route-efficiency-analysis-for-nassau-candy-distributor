@@ -176,9 +176,9 @@ Visualizes monthly shipping performance trends.
 
 ---
 
-## 🔹 Optimization Output
+## 🔹 Optimizations Output
 
-![Optimization Output](optimizations_output.png)
+![Optimizations Output](optimizations output.png)
 
 ---
 
@@ -190,7 +190,7 @@ Visualizes monthly shipping performance trends.
 
 ## 🔹 Map View
 
-![Map View](map_view.png)
+![Map View](map view.png)
 
 ---
 
