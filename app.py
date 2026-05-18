@@ -11,7 +11,8 @@ st.title("Nassau Candy Dashboard")
 # ---------------- LOAD DATA ----------------
 @st.cache_data
 def load_data():
-    file_path = (r"C:\Users\kalya\Downloads\Nassau Candy Distributor.csv")
+    file_path ="Nassau Candy Distributor.csv"
+
     df = pd.read_csv(file_path)
     return df
 
