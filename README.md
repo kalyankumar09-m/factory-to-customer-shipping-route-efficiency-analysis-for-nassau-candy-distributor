@@ -94,16 +94,17 @@ Dashboard Preview
 ![Dashboard](dashboard.png)
 
 🔹 optimizations output
-![Optimization](optimization.png)
+![optimizations](optimizations.png)
 
  🔹 charts
 ![Charts](charts.png)
 
  🔹 map view
-![Map](map.png)
+![map](map.png)
 
 🔹raw dataset
-![Raw dataset](raw dataset.png)
+![raw dataset](raw dataset.png)
+
 
 
 
