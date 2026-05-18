@@ -102,7 +102,7 @@ Dashboard Preview
  🔹 map view
 ![Map](map.png)
 
-🔹raw dataset.png
+🔹raw dataset
 ![Raw dataset](raw dataset.png)
 
 
