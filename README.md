@@ -90,16 +90,16 @@ Visualizes monthly average lead time trends.
 
 Dashboard Preview
 
- 🔹 Overview
-![Overview](overview.png)
+ 🔹 dashboard.png
+![Dashboard](dashboard.png)
 
-🔹 Optimization Output
+🔹 optimizations output
 ![Optimization](optimization.png)
 
- 🔹 Charts
+ 🔹 charts
 ![Charts](charts.png)
 
- 🔹 Map View
+ 🔹 map view
 ![Map](map.png)
 
 🔹raw dataset.png
